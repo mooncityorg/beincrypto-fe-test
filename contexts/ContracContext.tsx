@@ -47,6 +47,7 @@ const ContractContext = createContext<ContractContextProps>({
 
 export const useContract = () => {
   const context = useContext(ContractContext);
+  console.log(context);
   if (!context) {
     throw new Error('useContract must be used within a ContractProvider');
   }
