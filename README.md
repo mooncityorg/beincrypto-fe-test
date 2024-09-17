@@ -15,7 +15,7 @@ This template comes with several essential features:
 - ESLint setup with [eslint-config-mantine](https://github.com/mantinedev/eslint-config-mantine)
 
 ## npm scripts
-
+  npm run start
 ### Build and dev scripts
 
 - `dev` – start dev server
